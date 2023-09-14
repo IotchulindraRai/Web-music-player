@@ -14,7 +14,7 @@ var isDrawerOpen = false,
   drawerBar,
   dawerProgress,
   isKorean = false,
-  baseUrl ="https://onlinemucicplayerbychulindra.netlify.app/",
+  baseUrl ="https://music-player-by-chulindra.netlify.app/",
   accentColorAr = [
     "#ff4b66",
     "#62ff6e",
