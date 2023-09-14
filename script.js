@@ -14,7 +14,7 @@ var isDrawerOpen = false,
   drawerBar,
   dawerProgress,
   isKorean = false,
-  baseUrl = "https://abdulmoqueet.github.io/music-player/",
+  baseUrl ="https://onlinemucicplayerbychulindra.netlify.app/",
   accentColorAr = [
     "#ff4b66",
     "#62ff6e",
@@ -166,20 +166,14 @@ var korean = [
     albumArt: "images/hindi/taj.jpg",
   },
 
-  {
-    name: "Arziyan",
-    singer: "Jawed Ali",
-    duration: "08:42",
-    url: "",
-    albumArt: "",
-  },
+ 
 
   {
-    name: "Rang Sharbato ka",
+    name: "Alone ",
     singer: "Atfi Aslam",
     duration: "04:23",
-    url: "",
-    albumArt: "",
+    url: "songs/hindi/Tajdar-e-Haram_Atif_Aslam.mp3",
+    albumArt: "images/Hindi/AlbumArt_{B5020207-474E-4720-D905-A9185B941800}_Small.jpg",
   },
   {
     name: "",
@@ -343,7 +337,7 @@ function changeTheme(id) {
   currentProfile.accentColor = accentColorAr[id];
   if (id == 7) {
     currentProfile.accentColor = "#000000";
-    showToast("Expermental Dark");
+    showToast("Experimental limit");
   }
   var card = document.getElementsByClassName("card");
   songListDuration[currentProfile.id].style.color = currentProfile.accentColor;

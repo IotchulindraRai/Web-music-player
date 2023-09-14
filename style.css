@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 :root {
@@ -15,6 +16,8 @@ body {
   -ms-user-select: none;
   user-select: none;
   background: #fff;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+  url('images/Chulindra\ Rai\ pho.jpg')
 }
 
 .main-container {
@@ -49,6 +52,8 @@ body {
 .by {
   margin-top: 10vh;
   font-size: 0.9em;
+  
+  
 }
 
 .icon {
@@ -170,12 +175,17 @@ body {
 
 .nav p {
   display: none;
+  
 }
 
 .by {
-  padding-left: 1rem;
-  padding-bottom: 1rem;
+  margin-top: 10vh;
+  font-size: 0.9em;
+  color: transparent;
+  background: video url('images/vid.mp4') ;
+  
 }
+
 
 .nav-top {
   background: var(--accent-color);
@@ -638,7 +648,7 @@ transform: rotate(360deg);
 }
 
 #drawerSingerName {
-  color: #b5b5b5;
+  color: #1613d4;
 }
 
 #dawerProgress {
@@ -719,7 +729,7 @@ transform: rotate(360deg);
 #bottomSingerName {
   font-size: 0.8em;
   padding-top: 0.3rem;
-  color: #9b9a9a;
+  color: #2e77e4;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
